@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.menu{
+    font-size: 50px;
+    font-family: 'Tilt Prism', cursive;
+}
+
+.itemslist{
+    margin-left: 6%;
+    margin-right: 6%;
+    
+}
+.item{
+    display: inline-block;
+    background-color: rgb(201, 201, 33);
+    border: 2px solid black;
+    border-radius: 20px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin: 20px;
+}
+.item img{
+    border:2px solid yellow;
+    border-radius: inherit;
+    padding: 2px 2px;
+    size: 100px 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.price{
+    display: block;
+    padding:3px;
+    margin-top: 0px;
+    right: 0;
+    text-align: end;
+    font-size: 20px;
+}
+.itemname{
+    font-size:25px;
+    margin-left: 10px;
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 1px;
+    font-family: 'Tilt Prism', cursive;
+}

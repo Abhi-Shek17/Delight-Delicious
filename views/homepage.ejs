@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylehome.css">
+    <title>Restaurant | <%= title %></title>
+</head>
+<body>
+    <%- include('./partials/nav.ejs') %>
+    <header class="top">
+        <h2 class="resname">DELIGHT DELICIOUS</h2>
+        
+    </header>
+    <div class="invisible">YOU are ON top</div>
+    <main>
+        <div class="image">
+            <img src="resto.jpg" width=600px alt="" class="resto">
+        </div>
+        <div class="container-fluid">
+            <h1 class="welcome">Welcome To Delight Delicious</h1>
+            <div class="invite">We are Dedicated to serve delicious food to ensure customer delight.</div>
+            <h4 class="belowquote"></h4>
+        </div>
+    </main>
+    
+    <%- include('./partials/footer.ejs') %>
+</body>
+</html>

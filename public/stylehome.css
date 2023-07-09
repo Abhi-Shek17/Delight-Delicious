@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.top{
+    display:block;
+    background-color: rgb(69, 50, 50);
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Tilt Prism', cursive;}
+.invisible{
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+.resname{
+    display: block;
+    color:gold;
+    right: 0px;
+    text-align: end;
+    margin-top:15px;
+}
+body{
+    background-color: yellow;
+}
+.navig{
+    margin-top: 10px;
+}
+.navig ul {
+    top:0;
+    display:flex;
+    box-sizing: border-box;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40%;
+    position:fixed;
+    z-index: 1;
+}
+.navig ul li{
+    font-size: 20px;
+    margin-top: 0;
+    list-style-type: none;
+    margin:0px;
+    z-index: 1;
+    color:yellow;
+    padding: 0px 25px;
+    top:0;
+    font-family: 'Tilt Prism', cursive;
+}
+.navig ul li a{
+    margin: 0;
+    
+    text-decoration: none;
+    color: yellow;
+}
+main{
+    display:flex;
+
+}
+.resto{
+    border:1px solid black;
+    border-radius: 10px;
+
+}
+.image{
+    margin-left: 20px;
+}
+.imageinfo h1 {
+    font-size:55px ;
+    font-family: 'Tilt Prism', cursive;
+}
+.invite{
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+}
+.belowquote{
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+}
